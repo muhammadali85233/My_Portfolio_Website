@@ -1,0 +1,18 @@
+@import "tailwindcss";
+/* @import "tailwindcss/base";
+ @import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+/* Fix react-slick messing with layout */
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+}
+
+.slick-slide > div {
+  width: 100%;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none !important;
+  content: '' !important;
+}
