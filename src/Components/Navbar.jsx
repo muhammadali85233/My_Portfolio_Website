@@ -116,7 +116,7 @@ const Navbar = ({ scrollToId, navLinks }) => {
 
         {/* ✅ Download CV (mobile only) */}
         <a
-          href="/MuhammadAliCV.pdf"
+          href="/MuhammadAli_CV.pdf"
           download
           className="md:hidden bg-[#32cd32] text-black text-xs font-semibold px-3 py-2 rounded-lg hover:bg-[#28a428] transition flex items-center gap-2"
         >
